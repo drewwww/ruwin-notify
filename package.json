@@ -1,0 +1,70 @@
+{
+  "name": "ruwin-notify",
+  "version": "1.0.0",
+  "description": "Ruwin's notification bundle, forked from lange-notify",
+  "homepage": "http://twitch.tv/ruwin",
+  "scripts": {
+    "test": "npm run static",
+    "static": "eslint graphics/**/*.js"
+  },
+  "author": {
+    "name": "Andrew Eggleston",
+    "email": "egglestonandrew927@gmail.com"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "notification",
+    "subscription",
+    "tip",
+    "nodecg-bundle",
+    "nodecg"
+  ],
+  "nodecg": {
+    "compatibleRange": "~0.8.0",
+    "bundleDependencies": {
+      "lfg-nucleus": "^2.0.0"
+    },
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 1920,
+        "height": 80
+      }
+    ],
+    "soundCues": [
+      {
+        "name": "sub",
+        "assignable": false,
+        "defaultFile": "sounds/sub.ogg"
+      },
+      {
+        "name": "tip",
+        "assignable": false,
+        "defaultFile": "sounds/tip.ogg"
+      },
+      {
+        "name": "cut",
+        "assignable": false,
+        "defaultFile": "sounds/cut.ogg"
+      },
+      {
+        "name": "out",
+        "assignable": false,
+        "defaultFile": "sounds/out.ogg"
+      }
+    ]
+  },
+  "repository": "https://drewwww@github.com/drewwww/ruwin-notify.git",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^6.0.5",
+    "eslint": "^2.13.1",
+    "eslint-config-xo": "^0.15.2",
+    "eslint-plugin-babel": "^3.3.0"
+  }
+}
