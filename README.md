@@ -2,10 +2,7 @@
 This is a [NodeCG](http://github.com/nodecg/nodecg) bundle.
 
 Notification graphic for [Ruwin's stream](http://twitch.tv/ruwin).
-I have open-sourced it so that other developers may learn from it, but I kindly request that it not be used verbatim
-on other streams. I worked hard to make something unique that fit well with the rest of my design, and seeing it used
-exactly as-is on other streams would be frustrating.
-
+Forked from [lange-notify](github.com/lange/lange-notify)
 
 ## Installation
 _If you already have NodeCG installed, skip to step #3._
