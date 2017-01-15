@@ -7,6 +7,19 @@ Forked from [lange-notify](github.com/lange/lange-notify).
 ## Installation
 _If you already have NodeCG installed, skip to step #3._
 
+
+
+
+
+
+HAHAHAHHAHAHHAHAAAAAAAAAAAAAAAA
+
+
+
+
+
+
+
 1. Install [Node.js & npm](https://nodejs.org/en/).
 
 2. Open a command prompt and run the following commands to install NodeCG.
